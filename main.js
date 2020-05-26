@@ -3,7 +3,7 @@
 const path = require('path');
 
 // import custom module's helper function into main's namespace
-const { getIpv4MappedIpv6Address } = require(path.join(__dirname + "ipv6.js"));
+const { getIpv4MappedIpv6Address } = require(path.join(__dirname + "/ipv6.js"));
 /*
   Import the ip-cidr npm package.
   See https://www.npmjs.com/package/ip-cidr
